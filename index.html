@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Boye_Mouhamed</title>
+    <link rel="stylesheet" href="./Public/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <a href="./index.html" class="logo" id="">M.Boye</a>
+        <div class="nav-links">
+            <ul>
+                <li  class="active"><a href="./index.html" style="color: rgb(26, 142, 155);" >Acceuil</a></li>
+                <li><a href="./Templates/portfolio.html">Portfolio</a></li>
+                <li><a href="./Templates/cv.html" >CV</a></li>
+                <li><a href="./Templates/hobbies.html" >Hobbies</a></li>
+            </ul>
+        </div>
+        <img src="./Public/img/menu-btn.png" alt="Menu-button" class="menu-hamburger">
+    </nav>
+    </header> <br><br><br><br><br><br><br><br><br><br>
+
+    <div class="presentation">
+
+        <div class="title">
+            <h1>Student In  Networks & Telecommunications</h1>
+        </div>
+
+        <div class="picture">
+            <img src="./Public/img/me2.jpg" alt="" width="350px" height="350px" style="border-radius: 200px;">
+        </div>
+
+    </div>
+
+    <a href="#scroll" class="scroll">Scroll <i class="fas fa-angle-down"></i></a><br><br><br><br><br><br>
+
+    <section>
+
+        <div class="profile-details" id="scroll">
+
+            <div class="text-profile">
+                <h1 class="text-title"> About me</h1>
+                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam officiis corporis repellendus dolore voluptas, saepe, molestias enim sed non facilis inventore veritatis et earum adipisci hic, itaque recusandae nam! Nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat nam inventore libero explicabo obcaecati, molestias dolore esse cupiditate, ad, optio ex? Aperiam quam eveniet enim rem quae nihil repellat.</h3>
+            </div>
+
+            <div class="picture-profile">
+                <img src="./Public/img/pic2.jpg" alt="" width="500px" height="300px" style="border-radius: 50px; flex:1;">
+
+            </div>
+
+        </div>
+
+
+    </section><br><br><br>
+
+    <footer>
+        <div class="footer">
+
+            <div class="social">
+                <h3 class="text-foot">My Networks:</h3>
+                <a href="https://fr.quora.com/profile/Volume-Canelle" style="text-decoration: none; color:aqua">
+                <img src="./Public/img/quora.png" alt="" width="50px" height="50px"> Quora <br></a>
+
+                <a href="https://github.com/Blow07?tab=repositories" style="text-decoration: none; color:aqua">
+                <img src="./Public/img/git.png" alt="" width="50px" height="50px"> Github <br></a>
+
+                <a href="https://www.linkedin.com/in/mouhamed-boye-00760528b/" style="text-decoration: none; color:aqua">
+                <img src="./Public/img/in.png" alt="" width="50px" height="50px"> Linkedin  <br></a>
+
+
+            </div>
+
+            <div class="contact">
+                <h3 class="text-foot">Contact:</h3>
+                <i class="fas fa-envelope" style="color: #007bff; font-size: 24px; margin-right: 10px;"></i> boyemouhamed43@gmail.com <br><br>
+                <i class="fas fa-phone" style="color: #007bff; font-size: 24px; margin-right: 10px;"></i> 06-65-31-78-00 <br>
+
+
+
+
+            </div>
+
+            <div class="credit">
+                <h3 class="text-foot">Credit:</h3> 
+                Picture taked from freepik: <br>
+
+                <a href="https://www.freepik.com/" style="text-decoration: none; color:aqua">
+                <img src="./Public/img/fp.png" width="50px" height="50px" alt="" style="margin-left: 100px;"></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+
+
+    </script>
+</html>

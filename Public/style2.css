@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    background-image: url(./img/bg3.jpg);
+    background-size: cover;
+    background-position: right;
+    
+   
+}
+
+.h-title {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+}
+
+.banniere {
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    background-image: url(../Public/img/ban.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 900px;
+    border-radius: 20px;
+}
+
+.banniere2 {
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    background-image: url(../Public/img/ban3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 900px;
+    border-radius: 20px;
+}
+
+.banniere3 {
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    background-image: url(../Public/img/chess.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 900px;
+    border-radius: 20px;
+}
+
+.text {
+    width: 50%;
+    color: aliceblue;
+    margin: 20px;
+}
+
+.text2 {
+    width: 50%;
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.text3 {
+    width: 50%;
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.strat {
+    text-align: center;
+    margin-top: 10%;
+    width: 50%;
+    height: 500px;
+}
+
+.game {
+    width: 50%;
+}
+.navbar{
+position: absolute;
+padding: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+box-sizing: border-box;
+
+}
+
+.navbar a {
+    color: rgb(249, 249, 249);
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul {
+     display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+    color: aliceblue;
+}
+
+.navbar .nav-links ul li.active {
+    color: rgb(114, 205, 215);
+    font-weight: 600;
+}
+
+.navbar .menu-hamburger {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 35px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar .logo {
+       position: absolute;
+       top: 40px;
+       left: 30px;
+    }
+
+    .navbar .menu-hamburger {
+        display: block;
+    }
+    .nav-links {
+        top: 0;
+        left: 0;
+        position: absolute;
+        backdrop-filter: blur(7px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        color: aliceblue;
+    }
+
+    .nav-links.mobile-menu {
+        margin-left: 0;
+        
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li {
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+}
+
+.footer {
+    display: flex;
+    color: aqua;
+    min-height: 300px;
+    justify-content: space-evenly;
+    background-image: url(../Public/img/foot.jpg);
+    background-size: cover;
+    min-width: 900px;
+}
+
+.text-foot {
+    margin: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .slides {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .slides li {
+    display: none;
+  }
+  
+  .slides li img {
+    width: 100%;
+    height: 500px;
+  }
+  
