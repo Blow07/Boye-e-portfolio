@@ -86,6 +86,7 @@ box-sizing: border-box;
 .navbar .nav-links ul li {
     margin: 0 25px;
     color: aliceblue;
+    font-size: larger;
 }
 
 .navbar .nav-links ul li.active {
