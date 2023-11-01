@@ -13,6 +13,11 @@ body {
     font-family: 'Courier New', Courier, monospace; 
     background-image: url(./img/bg3.jpg);
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% de la hauteur de la fenêtre visible */
     
    
 }
@@ -343,6 +348,7 @@ box-sizing: border-box;
     background-image: url(../Public/img/foot.jpg);
     background-size: cover;
     min-width: 1000px;
+    
 }
 
 .text-foot {
@@ -372,4 +378,8 @@ box-sizing: border-box;
     border-color: #beddea;
     background: linear-gradient(to right, #73b1da, #084f4c);
     color: #fff;
+}
+
+body {
+    flex-grow: 1;
 }
