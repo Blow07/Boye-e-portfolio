@@ -337,7 +337,7 @@ box-sizing: border-box;
 
 .footer {
     position: absolute;
-    bottom: 0;
+    top: 100vh;
     left: 0;
     right: 0;
     display: flex;
