@@ -336,10 +336,6 @@ box-sizing: border-box;
 
 
 .footer {
-    position: absolute;
-    top: 100vh;
-    left: 0;
-    right: 0;
     display: flex;
     color: aqua;
     min-height: 300px;
