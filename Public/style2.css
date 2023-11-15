@@ -28,7 +28,7 @@ body {
     display: flex;
     width: 100vw;
     height: 500px;
-    background-image: url(../Public/img/ban.jpg);
+    background-image: url(../Public/img/landscape.jpg);
     background-size: cover;
     background-position: center;
     min-width: 900px;
@@ -59,7 +59,7 @@ body {
 
 .text {
     width: 50%;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 20px;
 }
 
