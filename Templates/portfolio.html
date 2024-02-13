@@ -58,7 +58,7 @@
     <div class="skills">
 
         <div class="text-network-skills">
-           <p> Un projet réseau complet: <br>
+           <p><h1> Un projet réseau pour débuter: </h1><br>
             Ci-contre vous pouvez observer la topologie d'un projet réseau que j'ai eu à mener au cours de ma premiére année universitaire. Ce projet consistait à consolider les notions sur la configuration des équipements réseaux: routeurs, switch, PC du protocole de routage RIP, l'inter-vlan et la mise en place d'ACL, NAT.
             Nous avions travaillé par binôme et disposions de 2 routeurs et de 2 switchs reliés aux équipements d'autres binômes pour former une topologie assez grande. Nous avons configuré ces équipements en découpant des segments d'adresses réseau pour configurer des vlans ( administration, production, direction), mettre en place des access-list en autorisant des protocoles ou en interdisant d'autre selon les flux (entrants et sortants) tout en s'assurant de la connectivité à l'extérieur avec la translations des adresse. Pour en savoir plus vous pouvez télécharger un fichier packet tracer <a href="../Public/SIMULATION_SAE21.pkt">ici</a> qui résume assez bien l'ensemble du projet. 
           
@@ -77,13 +77,13 @@
         </div>
 
         <div class="text-network-services">
-            <p> Admin Sys WS, Active directory, Vmware: <br>
+            <p> Admin Sys WS, Active directory, Vmware:<br>
                 Concernant l'administration système, j'ai acquis une assez bonne compréhension sur la configuration 
                 des serveurs sur la licence Windows serveur pour configurer des protocoles basiques comme DNS 
                 (Zone primaire, secondaire, redirecteur, test nslookup), DHCP. Mais également 
                 l'Administration centralisé d'un parc informatique avec l'annuaire Active Directory pour gérer des groupes, partages, 
                 permissions et mise en place de GPO. Tout ces équipements ont été configuré sur une infrastrucutre virtualisé avec Vmware.
-                Puis des notions sur l'installation d'OS linux ou serveur web comme apache. L'installation du service RDS/Rdweb et serveur de messagerie avec hmailserver ont été également étudié récemment.</p>
+                Puis des notions sur l'installation d'OS linux ou serveur web comme apache. </p>
     
 
         </div>
@@ -94,6 +94,22 @@
 
         <div class="netpic2">
 
+
+        </div>
+
+        <div class="text-sae">
+            <br><br><br>
+            <h1>Convecoir un réseau multi-site sécurisé</h1>
+            Ci-contre vous pouvez observez les captures d'un projet réseau vaste où il fallait concevoir un réseau sécurisé avec l'installation de plusieurs services. Dans ce projet nous avons configurer le protocole de routage dynamique sur nos routeurs suivant la topolgie donné. Installer deux contrôleurs de domaine Active Directory associé au service DNS pour assurer la redondance de l'infrastructure. Signer les enregistrements avec DNSSEC et établir une GPO pour forcer les utilisateurs à demander ces enregistrements. Mettre en place le rdweb pour l'accès au bureau à distance. Sécurisez le réseau avec radius pour nos points d'accès wifi Ubiquiti. Configurer le dhcp et le ssh. Déployer un site web sur un serveur apache avec Debian en https. Mais également la supervision de toute cette infrastructure avec Grafana pour observer les métriques, les logs et autres informations venant des serveurs. Enfin un audit de sécurité sur le LLMNR poissoning dans un domaine AD, pour renforcer le réseau.
+
+        </div>
+
+        <div class="vid-sae">
+            <br><br>
+            <video width="100%" height="100%" controls>
+                <source src="../Public/media/fotoplay20240212235452.mp4" type="video/mp4">
+                Votre navigateur ne prend pas en charge la lecture de vidéos.
+              </video>
 
         </div>
 
@@ -138,7 +154,7 @@
                 développement, de test et de production. Cela simplifie le déploiement en garantissant que l'application 
                 fonctionne de manière cohérente, quel que soit l'endroit où elle est exécutée, tout en facilitant la gestion 
                 des mises à jour et des configurations. Ainsi pour illustrer tout ca nous avions utilisé docker lors d'un projet, pour monter une infrastrucutre de développement web à l'aide de conteneurs wordpress mariadb et phpmyadmin pour la base de donnée.
-                Installation et déploiement d'images suivi d'un Docker-compose et/ou Dockerfile pour conserver l'infrastructure.</p>
+               (Voir github)</p>
         </div>
 
         <div class="prog2">
@@ -148,6 +164,23 @@
                 la conception d'un site web avec ou sans Framework/CMS en utilisant les langages de front-end (HTML5, CSS, Javascript), ainsi que la gestion des bases de données 
                 en backend avec ajout de formulaire en utilisant symfony. Ces connaissances même si elles sont terrataires, m'ont permis de developper des sites simples et concis comme celui-ci.</p>
             
+
+        </div>
+
+        <div class="text-android">
+            <br><br><br><br><br>
+            <h3>Developpement Android:</h3>
+            <p> J'ai eu comme projet passionant le développement d'une application Android avec android studio et le langage de programmation JAVA. Cette application utilise les notions de programmation évenementielle mais aussi réseau avec les sockets pour développer une application communicante. En effet en utilisant deux téléphones dont l'un joue le rôle de serveur et l'autre le rôle de client on établit une communication entre les deux soit en TCP, soit en UDP selon l'utilisateur. Les deux peuvent s'envoyer des messages, des fichier JSON ou encore des objets convertis en format json. J'y ait également ajouté une fonctionnalité de messagerie pour permettre auc clients de communiquer entre eux et comme aspect sécurité la possible de bannir depuis le serveur des clients </p>
+
+        </div>
+
+        <div class="vid-android">
+
+            <video width="100%" height="100%" controls>
+                <source src="../Public/media/android.mp4" type="video/mp4">
+                Votre navigateur ne prend pas en charge la lecture de vidéos.
+              </video>
+              
 
         </div>
 
@@ -220,6 +253,24 @@
 
 
     </div>
+
+    <h1 style="color: aliceblue; text-align:center; font-size:xx-large" id="cyb">Certifications et Accomplissements</h1><br><br>
+
+    <div class="cert-attest">
+
+        <div class="mooc">
+
+            <img src="../Public/media/cert1.png" alt=""  height="300px">
+        </div>
+
+        <div class="iut">
+
+            <img src="../Public/media/ac1.png" alt=""  height="300px">
+        </div>
+
+    </div>
+
+
     </section><br><br><br>
     <footer>
         <div class="footer">
