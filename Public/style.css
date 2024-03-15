@@ -239,9 +239,26 @@ box-sizing: border-box;
     margin: 20px;
     gap: 30px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(8, 100px);
+    grid-template-rows: repeat(12, 100px);
     min-width: 1000px;
     
+}
+
+.lan {
+
+    color: white;
+    grid-column: 1 / 4;
+    grid-row: 9/12;
+
+
+}
+
+.powerpoint {
+  
+    grid-column: 4 / 8;
+    grid-row: 9/12;
+
+
 }
 
 .cert-attest {
